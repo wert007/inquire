@@ -88,3 +88,7 @@ pub use crate::config::set_global_render_config;
 pub use crate::error::{CustomUserError, InquireError};
 pub use crate::input::action::*;
 pub use crate::prompts::*;
+
+pub use crate::config::DEFAULT_PAGE_SIZE;
+pub use crate::input::{Input, InputActionResult};
+pub use crate::utils::paginate;
