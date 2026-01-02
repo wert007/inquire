@@ -27,3 +27,5 @@ pub use one_liners::*;
 pub use password::*;
 pub use select::*;
 pub use text::*;
+
+pub use prompt::Prompt;
