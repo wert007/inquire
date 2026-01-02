@@ -28,4 +28,4 @@ pub use password::*;
 pub use select::*;
 pub use text::*;
 
-pub use prompt::Prompt;
+pub use prompt::{ActionResult, Prompt};
